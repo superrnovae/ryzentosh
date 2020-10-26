@@ -39,7 +39,7 @@
 - AppStore   
 - FileVault
 
-###What doesn't work
+### What doesn't work
 - iMessage / FaceTime / iCloud (valid SN required)   
 
 ### Untested
