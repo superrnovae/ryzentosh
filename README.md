@@ -12,7 +12,8 @@
 | GPU | AMD RX 5700 XT |
 | RAM | 32GB GSkill Ripjaws V @ 3200MHz |
 | OS Disk (SSD) | PNY CS3030 500GB |
-
+| LAN | Realtek® 8111H Gigabit LAN |
+| AUDIO | Realtek® ALC892 |
 ### Software
 1. [gibMacOS](https://github.com/corpnewt/gibMacOS)
 2. [SSDT Time](https://github.com/corpnewt/SSDTTime)
