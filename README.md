@@ -37,14 +37,13 @@
 - USB   
 - Photoshop   
 - AppStore   
+- FileVault
 
 ###What doesn't work
 - iMessage / FaceTime / iCloud (valid SN required)   
-### Untested
 
 ### Untested
 - Sleep    
-- FileVault   
 
 ## Installation
   1. Create a macOS bootable usb with [gibMacOS](https://github.com/corpnewt/gibMacOS)
