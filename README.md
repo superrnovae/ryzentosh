@@ -41,10 +41,8 @@
 - FileVault
 
 ### What doesn't work
-- iMessage / FaceTime / iCloud (valid SN required)   
-
-### Untested
-- Sleep    
+- iMessage / FaceTime / iCloud (valid SN required)
+- Sleep (difficult on AMD systems)   
 
 ## Installation
   1. Create a macOS bootable usb with [gibMacOS](https://github.com/corpnewt/gibMacOS)
@@ -52,3 +50,17 @@
   3. Download [**GenSMBIOS**](https://github.com/corpnewt/GenSMBIOS) to generate unique SMBIOS information. Run it and select config.plist from the /EFI/OC directory to automatically populate the fields.
   4. Alternativelly one could open config.plist with [**ProperTree**](https://github.com/corpnewt/ProperTree) and go to PlatformInfo > Generic. Set MLB  (Board Serial), SystemSerialNumber (Serial) and SystemUUID (SmUUID) to generated values.
   5. Enjoy your Hackintosh ;)
+
+### BIOS settings
+
+# Disable
+- Fast Boot
+- Secure Boot
+- Serial/COM Port
+- Parallel Port
+- Compatibility Support Module (CSM)(Must be off, GPU errors like gIO are common when this option in enabled)
+
+# Enable 
+- EHCI/XHCI Hand-off
+- OS type: Windows 8.1/10 UEFI Mode
+- SATA Mode: AHC
