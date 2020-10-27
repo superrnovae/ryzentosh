@@ -7,12 +7,28 @@
 		<key>Add</key>
 		<array>
 			<dict>
+				<key>Comment</key>
+				<string>SSDT-EC.aml</string>
+				<key>Path</key>
+				<string>SSDT-EC.aml</string>
 				<key>Enabled</key>
 				<true/>
+			</dict>
+			<dict>
 				<key>Comment</key>
-				<string>SSDT-DESKTOP.aml</string>
+				<string>SSDT-HPET.aml</string>
 				<key>Path</key>
-				<string>SSDT-DESKTOP.aml</string>
+				<string>SSDT-HPET.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-USBX.aml</string>
+				<key>Path</key>
+				<string>SSDT-USBX.aml</string>
+				<key>Enabled</key>
+				<true/>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -406,7 +422,7 @@
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>Scheme</key>
 		<dict>
