@@ -65,4 +65,4 @@
 ### Enable 
 - EHCI/XHCI Hand-off
 - OS type: Windows 8.1/10 UEFI Mode
-- SATA Mode: AHC
+- SATA Mode: AHCI
