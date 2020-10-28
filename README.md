@@ -28,7 +28,6 @@
 - [AppleMCEReportedDisabler](https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip) [Kext]   
 - [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X/releases) [Kext]   
 - [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases) [Kext]   
-- [USBMap](https://github.com/corpnewt/USBMap) [Kext]   
 - [AMDRyzenCPUPowerManagement](https://github.com/trulyspinach/SMCAMDProcessor) [Kext]   
 - [SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor) [Kext]   
 - [AMD_Vanilla](https://github.com/AMD-OSX/AMD_Vanilla/blob/opencore/17h/patches.plist) [Patch]      
