@@ -1,8 +1,8 @@
 ![Screenshot](/cover.png?raw=true)
 
-**macOS Catalina**: 10.15.7
+**macOS Big Sur**: 11.0
 
-**OpenCore version**: 0.6.2
+**OpenCore version**: 0.6.3
 
 ## Specification
 | **Component** | **Model** |
