@@ -2,18 +2,19 @@
 
 **OpenCore version**: [0.6.5](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.5)
 
-**BIOS version**: [7C02v39](https://download.msi.com/bos_exe/mb/7C02v39.zip)
+**BIOS version**: [7C02v3A2 (Beta)](https://download.msi.com/bos_exe/mb/7C02v3A2.zip)
 
 ## Specifications
 | **Component** | **Model** |
 | ------------- | --------- |
-| CPU | AMD Ryzen 7 3700x |
+| CPU | Ryzen 7 3700x |
 | Motherboard | MSI B450 Tomahawk Max |
 | GPU | XFX RX 5700 XT THICC III |
-| RAM | 32GB GSkill Ripjaws V |
-| OS Disk (SSD) | PNY CS3030 500GB |
-| LAN CHIPSET | Realtek® 8111H Gigabit LAN |
+| RAM | 32GB 3200MHZ |
+| OS Disk (SSD) | PNY CS3030 |
+| LAN CHIPSET | Realtek® 8111H|
 | AUDIO CHIPSET | Realtek® ALC892 |
+| CASE | Corsair Corbide 270R |
 
 ## What works
  - Hardware accelerated Encode/Decode (Amazon / Netflix / Hulu)
