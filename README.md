@@ -37,6 +37,9 @@
   4. Set BIOS settings according to the [**guide**](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#amd-bios-settings).  
   5. [**Install macOS**](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#booting-the-opencore-usb). 
 
+## USB Map
+![USB Map](https://user-images.githubusercontent.com/57127875/106383524-e618ee00-63c6-11eb-8094-d594a3bd30d9.png)
+
 ## Other Guides
 **If you have any problems with installation or booting your macOS, kernel panics or another system related issues check OC configuration guide**  
 **If something else isn't working properly (for example USB ports, iServices, DRM/Netflix) check Post-Install guide**
