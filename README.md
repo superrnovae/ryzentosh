@@ -1,4 +1,4 @@
-**macOS versions**: 10.15.1 - 11.2
+**macOS version**: 10.15.1 - 11.2
 
 **OpenCore version**: [0.6.5](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.5)
 
@@ -9,31 +9,36 @@
 | ------------- | --------- |
 | CPU | Ryzen 7 3700x |
 | Motherboard | MSI B450 Tomahawk Max |
-| GPU | XFX RX 5700 XT THICC III |
-| RAM | 32GB 3200MHZ |
+| GPU | XFX RX 5700 XT Thicc III |
+| RAM | Gskill Ripjaws 2x16GB 3200Mhz |
 | OS Disk (SSD) | PNY CS3030 |
-| LAN CHIPSET | Realtek® 8111H|
-| AUDIO CHIPSET | Realtek® ALC892 |
+| LAN CHIPSET | Realtek 8111H |
+| AUDIO CHIPSET | Realtek ALC892 |
 | CASE | Corsair Corbide 270R |
 
 ## What works
- - Hardware accelerated Encode/Decode (Amazon / Netflix / Hulu)
+ - Hardware Accelerated Encode/Decode (Amazon / Netflix / Hulu)
  - Ethernet 
  - Audio  
+ - USB Ports
  - CPU Power Management
- - GPU Power Management
  - FileVault
  - Sleep (macOS 11.0+)
  - iServices
 
  ## Issues
   - Partially-working virtualization (only VirtualBox & Parallels Dekstop 13.1.0 or below)
-  - Not working 3.5mm Jack microphone (only USB/Bluetooth microphones)
+  - Not working 3.5mm Jack microphone (works with VoodooHDA, though audio quality is noticeably worse)
 
 ## How to use
+
+This repository is primarily meant to be used as a reference. It is advised to [**follow the official guide**](https://dortania.github.io/OpenCore-Install-Guide/), that in details explains the process of creating a bootable USB to installing macOS and finally fixing issues that have occurred during or post-install phase.
+
+In case one may not want to spend time following the guide, one may proceed as follows:
+
   1. [**Create bootable USB**](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/).  
   2. Clone this repository, copy and paste "EFI" directory onto your USB drive.
-  3. [**Set up SMBIOS (MacPro7,1) and MAC address**](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial).  
+  3. [**Generate SMBIOS for MacPro7,1**](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial) and [**fix ROM**](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#fixing-rom).  
   4. Set BIOS settings according to the [**guide**](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#amd-bios-settings).  
   5. [**Install macOS**](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#booting-the-opencore-usb). 
 
@@ -42,9 +47,9 @@
 
 ## Fixing Memory Errors
 
-CustomMemory.plist is included, but is disabled by default. It is advised to follow the official [docs](https://dortania.github.io/OpenCore-Post-Install/universal/memory.html) to remove the error.   
+CustomMemory.plist is included, but is disabled by default. It is advised to follow the official [**docs**](https://dortania.github.io/OpenCore-Post-Install/universal/memory.html) to remove the error.   
 
-Ports populated in current build: DIMMA2 and DIMMB2 as specified in [official manual](https://download.msi.com/archive/mnu_exe/mb/E7C02v1.5.pdf) by MSI.  
+Ports populated in current build: DIMMA2 and DIMMB2 as specified in [**official manual**](https://download.msi.com/archive/mnu_exe/mb/E7C02v1.5.pdf) by MSI.  
 
 Current Values:
  - DataWidth: 64 bits
@@ -57,15 +62,14 @@ Current Values:
 
 ## Other Guides
 
-**If you have any problems with installation or booting your macOS, kernel panics or another system related issues check OC configuration guide**  
-**If something else isn't working properly (for example USB ports, iServices, DRM/Netflix) check Post-Install guide**
+In case you are experiencing issues during installation or boot, kernel panics or another system related issues — check OC configuration guide**  
 
- - [Post-Install](https://dortania.github.io/OpenCore-Post-Install/)
- - [Multiboot](https://dortania.github.io/OpenCore-Post-Install/#multiboot)
- - [Troubleshooting](https://dortania.github.io/OpenCore-Post-Install/)
- - [ACPI Patching](https://dortania.github.io/Getting-Started-With-ACPI/)
- - [USB Mapping](https://dortania.github.io/OpenCore-Post-Install/usb/)
- - [MacPro7,1 Memory Errors](https://dortania.github.io/OpenCore-Post-Install/universal/memory.html)
+ - [**Post-Install**](https://dortania.github.io/OpenCore-Post-Install/)
+ - [**Troubleshooting**](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html)
+ - [**OpenCore and Big Sur**](https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/#table-of-contents)
+ - [**USB Mapping**](https://dortania.github.io/OpenCore-Post-Install/usb/manual/manual.html#usb-mapping-the-manual-way)
+ - [**MacPro7,1 Memory Errors**](https://dortania.github.io/OpenCore-Post-Install/universal/memory.html)
+ - [**ACPI Patching**](https://dortania.github.io/Getting-Started-With-ACPI/)
 
 If you have any other questions or issues, feel free to ask on [**AMD-OSX Discord**](https://discord.gg/EfCYAJW) or [**Forum**](https://forum.amd-osx.com)  
 
