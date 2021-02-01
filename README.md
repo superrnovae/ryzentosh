@@ -38,7 +38,7 @@
   5. [**Install macOS**](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#booting-the-opencore-usb). 
 
 ## USB Map
-![USB Map](https://user-images.githubusercontent.com/57127875/106383524-e618ee00-63c6-11eb-8094-d594a3bd30d9.png)
+![USB Map](https://user-images.githubusercontent.com/57127875/106525478-55d0cb00-64e4-11eb-9943-d0d67f000320.png)
 
 ## Fixing Memory Errors
 
