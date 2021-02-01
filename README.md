@@ -40,9 +40,26 @@
 ## USB Map
 ![USB Map](https://user-images.githubusercontent.com/57127875/106383524-e618ee00-63c6-11eb-8094-d594a3bd30d9.png)
 
+## Fixing Memory Errors
+
+CustomMemory.plist is included, but is disabled by default. It is advised to follow the official [docs](https://dortania.github.io/OpenCore-Post-Install/universal/memory.html) to remove the error.
+
+Port populated in current build: DIMMA2 and DIMMB2 as specified in [official manual](https://download.msi.com/archive/mnu_exe/mb/E7C02v1.5.pdf) by MSI.  
+
+Current Values:
+ - DataWidth: 64 bits
+ - ErrorCorrection: 3 (None)
+ - FormFactor: 9 (DIMM)
+ - MaxCapacity: 137438953472 (128 GB)
+ - TotalWidth: 64 bits
+ - Type: 26 (DDR4)
+ - TypeDetail: 16512 (Synchronous Unbuffered (Unregistered))
+
 ## Other Guides
+
 **If you have any problems with installation or booting your macOS, kernel panics or another system related issues check OC configuration guide**  
 **If something else isn't working properly (for example USB ports, iServices, DRM/Netflix) check Post-Install guide**
+
  - [Post-Install](https://dortania.github.io/OpenCore-Post-Install/)
  - [Multiboot](https://dortania.github.io/OpenCore-Post-Install/#multiboot)
  - [Troubleshooting](https://dortania.github.io/OpenCore-Post-Install/)
