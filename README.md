@@ -1,4 +1,4 @@
-**macOS versions**: 10.15.1 - 11.1
+**macOS versions**: 10.15.1 - 11.2
 
 **OpenCore version**: [0.6.5](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.5)
 
@@ -42,9 +42,9 @@
 
 ## Fixing Memory Errors
 
-CustomMemory.plist is included, but is disabled by default. It is advised to follow the official [docs](https://dortania.github.io/OpenCore-Post-Install/universal/memory.html) to remove the error.
+CustomMemory.plist is included, but is disabled by default. It is advised to follow the official [docs](https://dortania.github.io/OpenCore-Post-Install/universal/memory.html) to remove the error.   
 
-Port populated in current build: DIMMA2 and DIMMB2 as specified in [official manual](https://download.msi.com/archive/mnu_exe/mb/E7C02v1.5.pdf) by MSI.  
+Ports populated in current build: DIMMA2 and DIMMB2 as specified in [official manual](https://download.msi.com/archive/mnu_exe/mb/E7C02v1.5.pdf) by MSI.  
 
 Current Values:
  - DataWidth: 64 bits
