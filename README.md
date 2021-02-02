@@ -1,6 +1,6 @@
 **macOS version**: 10.15.1 - 11.2
 
-**OpenCore version**: [0.6.5](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.5)
+**OpenCore version**: [0.6.6](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.6)
 
 **BIOS version**: [7C02v3A2 (Beta)](https://download.msi.com/bos_exe/mb/7C02v3A2.zip)
 
