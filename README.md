@@ -1,8 +1,8 @@
-**macOS version**: 10.15.1 - 11.2
+**macOS version**: 10.15.1 - 11.2.2
 
-**OpenCore version**: [0.6.6](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.6)
+**OpenCore version**: [0.6.7](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.7)
 
-**BIOS version**: [7C02v3A2 (Beta)](https://download.msi.com/bos_exe/mb/7C02v3A2.zip)
+**BIOS version**: [7C02v3A](https://download.msi.com/bos_exe/mb/7C02v3A.zip)
 
 ## Specifications
 | **Component** | **Model** |
@@ -32,9 +32,9 @@
 
 ## How to use
 
-This repository is primarily meant to be used as a reference. It is advised to [**follow the official guide**](https://dortania.github.io/OpenCore-Install-Guide/), that in details explains the process of creating a bootable USB to installing macOS and finally fixing issues that have occurred during or post-install phase.
+This repository is meant to be used as a reference. I recommend you [**follow the official guide**](https://dortania.github.io/OpenCore-Install-Guide/), that in details explains the process of creating a bootable USB to installing macOS and finally fixing issues that have occurred during install or post-install phase.
 
-In case one may not want to spend time following the guide, one may proceed as follows:
+In case you don't have time to read the docs, proceed as follows:
 
   1. [**Create bootable USB**](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/).  
   2. Clone this repository, copy and paste "EFI" directory onto your USB drive.
@@ -47,9 +47,9 @@ In case one may not want to spend time following the guide, one may proceed as f
 
 ## Fixing Memory Errors
 
-CustomMemory.plist is included, but is disabled by default. It is advised to follow the official [**docs**](https://dortania.github.io/OpenCore-Post-Install/universal/memory.html) to remove the error.   
+CustomMemory.plist is included, but is disabled by default. You can follow the instructions in the [**guide**](https://dortania.github.io/OpenCore-Post-Install/universal/memory.html) to remove the error.   
 
-Ports populated in current build: DIMMA2 and DIMMB2 as specified in [**official manual**](https://download.msi.com/archive/mnu_exe/mb/E7C02v1.5.pdf) by MSI.  
+Ports populated in the current build: DIMMA2 and DIMMB2 as specified in [**official manual**](https://download.msi.com/archive/mnu_exe/mb/E7C02v1.5.pdf) by MSI.  
 
 Current Values:
  - DataWidth: 64 bits
@@ -62,7 +62,7 @@ Current Values:
 
 ## Other Guides
 
-In case you are experiencing issues during installation or boot, kernel panics or other system related issues — check OC configuration guide  
+In case you are experiencing issues during installation or boot, kernel panics or other system related issues — check OC configuration guides:  
 
  - [**Post-Install**](https://dortania.github.io/OpenCore-Post-Install/)
  - [**Troubleshooting**](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html)
