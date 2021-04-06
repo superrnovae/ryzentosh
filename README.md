@@ -76,7 +76,7 @@ If you have any other questions or issues, feel free to ask on [**AMD-OSX Discor
 ## Fix Application Crashes
 
 - [**Adobe Products**](https://gist.github.com/naveenkrdy/26760ac5135deed6d0bb8902f6ceb6bd)
-- [**Discord**](https://github.com/bakedpotato191/ryzentosh/wiki#fix-discord-crash)
+- [**Discord**](https://gist.github.com/bakedpotato191/ff82485e809594ab94c10abc26fa4121#file-discordamdfix-md)
 
 ## Credits
 - [**acidanthera**](https://github.com/acidanthera) for [OpenCore](https://github.com/acidanthera/OpenCorePkg), [AppleALC](https://github.com/acidanthera/AppleALC), [Lilu](https://github.com/acidanthera/Lilu), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), [WhateverGreen](https://github.com/acidanthera/WhateverGreen),
