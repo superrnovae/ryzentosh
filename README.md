@@ -1,6 +1,6 @@
-**macOS version**: 10.15.1 - 11.2.2
+**macOS version**: 10.15.1 - 11.2.3
 
-**OpenCore version**: [0.6.7](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.7)
+**OpenCore version**: [0.6.8](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.8)
 
 **BIOS version**: [7C02v3A](https://download.msi.com/bos_exe/mb/7C02v3A.zip)
 
@@ -14,7 +14,6 @@
 | OS Disk (SSD) | PNY CS3030 |
 | LAN CHIPSET | Realtek 8111H |
 | AUDIO CHIPSET | Realtek ALC892 |
-| CASE | Corsair Corbide 270R |
 
 ## What works
  - Hardware Accelerated Encode/Decode (Amazon / Netflix / Hulu)
