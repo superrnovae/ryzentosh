@@ -1,8 +1,8 @@
-**macOS version**: 10.15.1 - 11.4
+**macOS version**: 10.15.1 - 11.5.2
 
-**OpenCore version**: [0.7.1](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.1)
+**OpenCore version**: [0.7.2](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.2)
 
-**BIOS version**: [7C02v3A](https://download.msi.com/bos_exe/mb/7C02v3A.zip)
+**BIOS version**: [7C02v3B](https://download.msi.com/bos_exe/mb/7C02v3B.zip)
 
 ## Specifications
 | **Component** | **Model** |
@@ -45,7 +45,6 @@ In case you are experiencing issues during installation or boot, kernel panics o
  - [**Troubleshooting**](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html)
  - [**OpenCore and Big Sur**](https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/#table-of-contents)
  - [**USB Mapping**](https://dortania.github.io/OpenCore-Post-Install/usb/manual/manual.html#usb-mapping-the-manual-way)
- - [**MacPro7,1 Memory Errors**](https://dortania.github.io/OpenCore-Post-Install/universal/memory.html)
  - [**ACPI Patching**](https://dortania.github.io/Getting-Started-With-ACPI/)
 
 If you have any other questions or issues, feel free to ask on [**AMD-OSX Discord**](https://discord.gg/EfCYAJW) or [**Forum**](https://forum.amd-osx.com)  
