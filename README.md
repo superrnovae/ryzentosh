@@ -1,6 +1,6 @@
-**macOS version**: 10.15.1 - 12.0.1
+**macOS version**: 10.15.1 - 12.2
 
-**OpenCore version**: [0.7.4](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.4)
+**OpenCore version**: [0.7.8](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.8)
 
 **BIOS version**: [7C02v3B](https://download.msi.com/bos_exe/mb/7C02v3B.zip)
 
@@ -16,9 +16,9 @@
 | AUDIO CHIPSET | ALC892 |
 
 ## What works
- - Hardware Accelerated Encode/Decode (Amazon / Netflix / Hulu)
+ - Hardware Acceleration
  - Ethernet 
- - Audio  
+ - Audio
  - USB Ports
  - CPU Power Management
  - FileVault
@@ -43,7 +43,8 @@ In case you are experiencing issues during installation or boot, kernel panics o
 
  - [**Post-Install**](https://dortania.github.io/OpenCore-Post-Install/)
  - [**Troubleshooting**](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html)
- - [**OpenCore and Big Sur**](https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/#table-of-contents)
+ - [**OpenCore and Monterey**](https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html)
+ - [**OpenCore and Big Sur**](https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/)
  - [**USB Mapping**](https://dortania.github.io/OpenCore-Post-Install/usb/manual/manual.html#usb-mapping-the-manual-way)
  - [**ACPI Patching**](https://dortania.github.io/Getting-Started-With-ACPI/)
 
